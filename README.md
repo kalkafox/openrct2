@@ -33,7 +33,9 @@ Mount `/save` as a directory and add save/scenarios from there. e.g `-v /home/ka
 
 ## Troubleshooting
 
-```terminate called after throwing an instance of 'std::bad_alloc'
-  what():  std::bad_alloc```
+```
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+```
   
 If you get this error, it means you either forgot to mount the config.ini volume or the directory you entered is invalid. Make sure you're pointing it to the right directory.
