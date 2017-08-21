@@ -31,4 +31,4 @@ USER openrct2
 
 WORKDIR ["/run"]
 
-ENTRYPOINT ["/run/run.sh"]
+CMD ["./run.sh"]
