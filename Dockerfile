@@ -15,7 +15,7 @@ openrct2
 RUN mkdir -p /opt/OpenRCT2/build \
         && cd /opt/OpenRCT2/build \
         && cmake ../ \
-        && make -j4 \
+        && make \
         && make install
 
 
