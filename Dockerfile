@@ -29,6 +29,6 @@ VOLUME ["/game", "/save" "/home/openrct2/.config/OpenRCT2/config.ini"]
 
 USER openrct2
 
-WORKDIR ["/run"]
+WORKDIR /run
 
 CMD ["./run.sh"]
